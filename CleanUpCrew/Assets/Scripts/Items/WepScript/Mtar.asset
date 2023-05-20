@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42503ab90e61f2944b2f642048ff7dc1, type: 3}
+  m_Name: Mtar
+  m_EditorClassIdentifier: 
+  name: Mtar
+  description: automatic weapon
+  icon: {fileID: 21300000, guid: 9984f0ef52e1102448849a014e750213, type: 3}
+  prefab: {fileID: 1363586683682277068, guid: 07a47451fcd87e74681e53f6b479e533, type: 3}
+  muzzleFlashParticles: {fileID: 7729621208295889434, guid: 055d8f697c686474096eab0ef9ab6667, type: 3}
+  crosshair: {fileID: 21300000, guid: 172af1a52af8c8f4b99cc2094f63c964, type: 3}
+  sound: {fileID: 8300000, guid: 3061c7b9b32d894478e4126ccce25ca3, type: 3}
+  magazineSize: 30
+  storedAmmo: 300
+  range: 100
+  fireRate: 0.3
+  damage: 10
+  weaponType: 2
+  weaponStyle: 1
